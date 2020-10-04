@@ -1,10 +1,14 @@
 import React from 'react';
 
 import { Grid } from './styles';
-import ServerName from '../ServerName'
-import RightContent from '../RightContent'
-import MainHeader from '../MainHeader'
-import ServerOptions from '../ServerOptions'
+import {
+  MainContent,
+  MainHeader,
+  RightContent,
+  ServerName,
+  ServerOptions
+} from '../index';
+
 
 const Layout: React.FC = () => {
   return (
@@ -13,6 +17,7 @@ const Layout: React.FC = () => {
         <MainHeader/>   
         <RightContent/>
         <ServerOptions/>
+        <MainContent/>
     </Grid>
   )
 }
