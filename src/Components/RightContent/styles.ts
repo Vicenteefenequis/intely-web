@@ -1,5 +1,5 @@
 import styled , {css} from 'styled-components';
-
+import  {shade} from 'polished'
 
 
 interface PropsCard {
@@ -39,10 +39,8 @@ export const Card = styled.div<PropsCard>`
         css `
              background:var(--color-yelow);
              padding:25px;
-        
         `
     }
-
     ${props => props.color === 'gray' && 
       css`background:var(--secondary-color)`
     }
@@ -58,8 +56,8 @@ export const BollCard = styled.button`
     justify-content:center;
     border-radius:50%;
 
-    &::hover{
-
+    &:hover{
+        background: ${shade(0.2,'#275E2E')}
     }
 `;
 

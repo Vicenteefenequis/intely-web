@@ -12,6 +12,9 @@ export default createGlobalStyle`
         height:100%;
     }
 
+    button{
+        cursor: pointer;
+    }
     *,button,input{
         border:0;
         outline:0;
