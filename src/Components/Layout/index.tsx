@@ -8,9 +8,9 @@ import MainHeader from '../MainHeader'
 const Layout: React.FC = () => {
   return (
     <Grid>
-          <ServerName/>
-          <RightContent/>
-          <MainHeader/>
+        <ServerName/>
+        <MainHeader/>   
+        <RightContent/>
     </Grid>
   )
 }
