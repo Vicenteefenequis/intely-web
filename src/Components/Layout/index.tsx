@@ -1,25 +1,26 @@
-import React from 'react';
+import React from "react";
 
-import { Grid } from './styles';
+import { Grid } from "./styles";
 import {
   MainContent,
   MainHeader,
   RightContent,
   ServerName,
-  ServerOptions
-} from '../index';
-
+  ServerOptions,
+  ServerData,
+} from "../index";
 
 const Layout: React.FC = () => {
   return (
     <Grid>
-        <ServerName/>
-        <MainHeader/>   
-        <RightContent/>
-        <ServerOptions/>
-        <MainContent/>
+      <ServerName />
+      <MainHeader />
+      <RightContent />
+      <ServerOptions />
+      <MainContent />
+      <ServerData />
     </Grid>
-  )
-}
+  );
+};
 
 export default Layout;
