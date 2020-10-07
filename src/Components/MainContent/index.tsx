@@ -14,6 +14,8 @@ import {
   HourLine,
 } from "./styles";
 
+import mathematics from "../../assets/mathematics.jpg";
+
 const MainContent: React.FC = () => {
   return (
     <Container>
@@ -64,8 +66,14 @@ const MainContent: React.FC = () => {
         </HourLine>
 
         <CardDiscpline>
-          <h1>Mathematics</h1>
-          <p>Properties of number</p>
+          <div>
+            <img src={mathematics} alt="Image Mathematics" />
+            <div>
+              <h1>Mathematics</h1>
+              <p>Properties of number</p>
+            </div>
+          </div>
+
           <PictureWrapper>
             <Picture />
             <Picture />

@@ -144,6 +144,19 @@ export const CardDiscpline = styled.div`
     font-size: 16px;
     color: var(--primary-color);
   }
+  > div {
+    display: flex;
+    align-items: center;
+    img {
+      width: 50px;
+      margin-right: 24px;
+      border-radius: 10px;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
   p {
     font-size: 16px;
