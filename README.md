@@ -14,7 +14,6 @@
 
 # :pushpin: Table of Contents
 
-- [Dados Covid](#dados-covid)
 - [:pushpin: Table of Contents](#pushpin-table-of-contents)
 - [:rocket: Features](#rocket-features)
 - [:construction_worker: Installation](#construction_worker-installation)
