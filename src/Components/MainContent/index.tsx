@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import {
   Container,
@@ -11,6 +11,7 @@ import {
   CardDiscpline,
   PictureWrapper,
   Picture,
+  HourLine,
 } from "./styles";
 
 const MainContent: React.FC = () => {
@@ -42,16 +43,26 @@ const MainContent: React.FC = () => {
         <h1>Today's schedule </h1>
         <p>september,4 Friday</p>
       </ScheduleWrapper>
-      <HoursWrapper>
-        <Hour>
-          <p>10 am</p>
-        </Hour>
-        <Hour>
-          <p>11 am</p>
-        </Hour>
-        <Hour>
-          <p>12 am</p>
-        </Hour>
+
+      <HoursWrapper id="hourwrapper">
+        <HourLine>
+          <Hour id="hour">
+            <p>10 am</p>
+          </Hour>
+        </HourLine>
+
+        <HourLine>
+          <Hour id="hour">
+            <p>11 am</p>
+          </Hour>
+        </HourLine>
+
+        <HourLine>
+          <Hour id="hour">
+            <p>12 am</p>
+          </Hour>
+        </HourLine>
+
         <CardDiscpline>
           <h1>Mathematics</h1>
           <p>Properties of number</p>

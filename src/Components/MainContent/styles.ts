@@ -98,12 +98,11 @@ export const HoursWrapper = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 12px;
-  width: 600px;
+  padding-left: 12px;
+  width: 80%;
   margin: 0 0 0 auto;
-
   > div {
-    margin-bottom: 24px;
+    margin-bottom: 47px;
   }
 `;
 
@@ -116,15 +115,6 @@ export const Hour = styled.div`
   background: var(--color-border);
   width: 86px;
   height: 29px;
-
-  &::after {
-    position: absolute;
-    content: "";
-    width: 500px;
-    height: 1px;
-    background-color: var(--color-border);
-    left: 100%;
-  }
 
   p {
     font-weight: 700;
@@ -139,9 +129,10 @@ export const CardDiscpline = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 300px;
-  height: 150px;
+  width: 400px;
+  height: 154px;
   padding: 16px;
+  margin-top: 42px;
 
   h1 {
     font-weight: 700;
@@ -186,4 +177,11 @@ export const Picture = styled.div`
   height: 34px;
   background-color: var(--color-border);
   border-radius: 50%;
+`;
+export const HourLine = styled.div`
+  width: 100%;
+  border-bottom: 1px solid var(--color-border);
+  > div {
+    margin-bottom: -15px;
+  }
 `;
