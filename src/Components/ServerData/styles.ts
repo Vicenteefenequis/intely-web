@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { shade } from "polished";
 
 type ColorVariantProps = {
   variants?: "white" | "green";
@@ -6,10 +7,22 @@ type ColorVariantProps = {
 
 const colorCardVariants = {
   green: css`
-    background-color: #15b82a;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    p {
+      font-size: 12px;
+      font-weight: 500;
+      color: ${shade("0.1", "#ffff")};
+    }
   `,
   white: css`
     background-color: #efefef;
+    color: var(--primary-color);
+    p {
+      color: var(--color-border);
+      font-weight: 500;
+      font-size: 12px;
+    }
   `,
 };
 
@@ -29,19 +42,39 @@ export const ProgressWrapper = styled.div`
   flex-direction: column;
 
   > div {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    width: 100%;
+
+    li {
+      width: 80%;
+      > div {
+        margin-bottom: 24px;
+      }
+    }
   }
 
   h1 {
-    margin-bottom: 8px;
+    color: var(--primary-color);
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 16px;
   }
 `;
 
 export const CardProgress = styled.div<ColorVariantProps>`
-  width: 200px;
-  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
 
-  border-radius: 20px;
+  border-radius: 10px;
 
   ${(props) => colorCardVariants[props.variants || "white"]}
 `;

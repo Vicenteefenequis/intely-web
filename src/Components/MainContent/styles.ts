@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import BackgroundFirst from "../../assets/backgroundCardFirst.png";
 
 type ColorVariantProps = {
   variants?: "white" | "green";
@@ -6,8 +7,8 @@ type ColorVariantProps = {
 
 const colorCardVariants = {
   green: css`
-    background-color: #275e2e;
     color: #fff;
+    background: url(${BackgroundFirst}) no-repeat center;
   `,
   white: css`
     background-color: #fff;

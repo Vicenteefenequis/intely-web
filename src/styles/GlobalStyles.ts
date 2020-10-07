@@ -1,5 +1,4 @@
-import {createGlobalStyle} from 'styled-components'
-
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     *{
@@ -19,6 +18,10 @@ export default createGlobalStyle`
         border:0;
         outline:0;
         font-family: 'Roboto',sans-serif;
+    }
+
+    ul,li{
+        list-style:none;
     }
 
     :root{
