@@ -1,45 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+   <img src="docs/logo.png" width="200"/>
+</p>
 
-## Available Scripts
+# Intely Web
 
-In the project directory, you can run:
+[![Author](https://img.shields.io/badge/author-VicenteNascimento-ff9000?style=flat-square)](https://github.com/VicenteEfenequis)
+[![Languages](https://img.shields.io/github/languages/count/VicenteEfenequis/intely-web?color=%23ff9000&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/VicenteEfenequis/intely-web?color=ff9000&style=flat-square)](https://github.com/VicenteEfenequis/intely-web/stargazers)
+[![Forks](https://img.shields.io/github/forks/VicenteEfenequis/intely-web?color=%23ff9000&style=flat-square)](https://github.com/Vicenteefenequis/intely-web/network/members)
+[![Contributors](https://img.shields.io/github/contributors/VicenteEfenequis/intely-web?color=ff9000&style=flat-square)](https://github.com/VicenteEfenequis/intely-web/graphs/contributors)
 
-### `yarn start`
+---
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# :pushpin: Table of Contents
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [Dados Covid](#dados-covid)
+- [:pushpin: Table of Contents](#pushpin-table-of-contents)
+- [:rocket: Features](#rocket-features)
+- [:construction_worker: Installation](#construction_worker-installation)
+- [:runner: Getting Started](#runner-getting-started)
+- [:postbox: Faq](#postbox-faq)
+- [:bug: Issues](#bug-issues)
+- [:closed_book: License](#closed_book-license)
 
-### `yarn test`
+<br />
+<span align="center"><img src="docs/TelaApp.png"/></span>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# :rocket: Features
 
-### `yarn build`
+- UI - Intely Web
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# :construction_worker: Installation
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**You need to install [Node.js](https://nodejs.org/en/download/) and [Npm](https://www.npmjs.com/) first, then in order to clone the project via HTTPS, run this command:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`git clone https://github.com/Vicenteefenequis/intely-web.git`
 
-### `yarn eject`
+SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`git clone git@github.com:Vicenteefenequis/intely-web.git`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Install dependencies**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`npm install` or `yarn`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# :runner: Getting Started
 
-## Learn More
+Run the following command in order to start the application in a development environment:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`npm start` or `yarn start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# intely-web
+# :postbox: Faq
+
+**Question:** What are the tecnologies used in this project?
+
+**Answer:** The tecnologies used in this project are **REACT** + **Styled-components** to handle scoped CSS and
+
+# :bug: Issues
+
+Feel free to **file a new issue** with a respective title and description on the [Intely Web](https://github.com/Vicenteefenequis/intely-web/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+
+# :closed_book: License
+
+Released in 2020 (Work in progress)
+This project is under the [MIT license](https://github.com/VicenteEfenequis/intely-web/master/LICENSE).
+
+Made with love by [Vicente Nascimento](https://github.com/VicenteEfenequis) 💜🚀
