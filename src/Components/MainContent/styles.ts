@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
-import BackgroundFirst from "../../assets/backgroundCardFirst.png";
+import BackgroundFirst from "../../assets/backgroundCardFirst.jpg";
+import BackgroundSecondary from "../../assets/backgroundCardSecondary.jpg";
 
 type ColorVariantProps = {
   variants?: "white" | "green";
@@ -9,10 +10,13 @@ const colorCardVariants = {
   green: css`
     color: #fff;
     background: url(${BackgroundFirst}) no-repeat center;
+    background-size: 100% 100%;
   `,
   white: css`
     background-color: #fff;
     color: #275e2e;
+    background: url(${BackgroundSecondary}) no-repeat center;
+    background-size: 100% 100%;
   `,
 };
 
